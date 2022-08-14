@@ -1,3 +1,0 @@
-This project is performed using python and opencv to perform 'Optical character recognition',
-Used SIFT to perform feature detection on the character images utilizing Python and OpenCV. 
-The Connected Component labeling technique was utilized for the purpose of feature detection, and the SSD algorithm was utilized for character recognition.

@@ -1,0 +1,5 @@
+1)Performing Face Detection using OpenCV and Python, multiple algorithms were used for face detection like Haar cascade, using a Deep neural network, and using HOG. 
+The F1 score of each algorithm was calculated by using the result JSON file to select the best algorithm, F1 score of each algorithm is mentioned in the Report.pdf.
+
+2) Performing Face clustering using OpenCV and Python, clustering of faces was done by using the Kmeans algorithm and the resulting clusters were obtained with faces 
+of different celebs to their corresponding cluster. Each cluster was then displayed with its corresponding images, the results are in the Report.pdf.

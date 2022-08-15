@@ -1,0 +1,5 @@
+This project is implemented using Python and OpenCV to perform 'Optical character recognition' from scratch, OCR is a technology used to extract text from images such as
+images and documents. First, I took the templates which are the characters images and extracted their features using SIFT for feature matching. The 'CCL' (Connected component
+labelling) was used to give each character in the test image a unique label and to also measure the bounding boxes of each of them. Finally, for each uniquely labeled 
+character in the test image, the 'SSD' algorithm was applied for feature matching with the templates and to assign them their corresponding letter to the match with the 
+minimum error.

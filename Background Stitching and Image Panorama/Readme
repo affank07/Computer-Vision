@@ -1,0 +1,10 @@
+This project is implemented using Python and OpenCV to perform 'Bakcground image stitching and Image Panorama'. It consist of two task as follow:
+1) Task 1: Performing background stitching using OpenCV and python, finding the features between the two images and matching them. 
+Finding the homography and image warp of the second image using matched features and stitching them and also removing the foreground from the stitched image.
+The images folder contains the images taken for background stitching and the result is saved in task1.png.
+2) Task 2: Performing Image Panorama using OpenCV and python, matching features of multiple images and creating an overlapping matrix of the matched features.
+The overlapping matrix tells us if the image will successfully overlap with the other image using feature matching.
+Using the overlapping matrix creating a panorama by stitching multiple images according to the overlap of one image with another image.
+The images folder contains the images taken for Image panorama and the result is saved in task2.png.
+3) Task 3: Task 3 is also performing image panorama and to test on real time images taken from a cell phone.
+The images folder contains the images taken for Image panorama and the result is saved in task3.png 
